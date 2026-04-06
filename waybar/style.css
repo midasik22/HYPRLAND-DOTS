@@ -1,0 +1,80 @@
+• {
+    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background-color: #0a0a0c;
+    padding: 0;
+}
+
+#custom-search, #mpris, #workspaces, #language, #clock, #custom-power, #pulseaudio, #network {
+    background-color: #1e1e28;
+    color: #cdd6f4;
+    border-radius: 19px;
+    padding: 6px 12px;
+    margin: 4px 2px; 
+}
+
+
+#workspaces button {
+    padding: 0 8px;
+    color: #6c7086;
+}
+
+#workspaces button.active {
+    color: #d9d1d1;
+    border-radius: 20px;
+}
+
+#workspaces button.urgent {
+    color: #f38ba8;
+}
+
+#workspaces button:hover {
+    background-color: rgb(157, 145, 145);
+    color: #a8a8bd;
+    border-radius: 20px;
+}
+
+#group-hardware {
+    background-color: #1e1e2e;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+
+#group-hardware #pulseaudio, 
+#group-hardware #network, 
+#group-hardware #bluetooth {
+    background-color: transparent;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#custom-search {
+    font-size: 20px;
+    padding: 6px 18px;
+    background-color: #3c3d50;  
+    color: #ffffff; 
+    padding-left: 14px;      
+    padding-right: 18px;      
+}
+
+#custom-search:hover {
+    background-color: #343545; 
+}
+
+#custom-power {
+    background-color: #3c3d50;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#custom-power:hover {
+    background-color: #b03535; 
+}
+

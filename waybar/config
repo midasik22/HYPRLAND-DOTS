@@ -1,0 +1,76 @@
+{
+    "layer": "top",
+    "position": "top",
+    "spacing": 10,
+
+    "modules-left": ["custom/search", "mpris"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["hyprland/language", "group/hardware", "clock", "custom/power"],
+
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "on-click": "activate",
+        "tooltip": false
+    },
+
+    "mpris": {
+        "format": "{player_icon} <span font='10'> </span>{title} - {artist}",
+        "format-paused": "{status_icon} <i>{title} - {artist}</i>",
+        "player-icons": {
+            "default": " "
+        },
+        "status-icons": {
+            "paused": " "
+        },
+        "max-length": 38,
+        "tooltip": false
+    },
+
+    "group/hardware": {
+        "orientation": "horizontal",
+        "modules": [
+            "pulseaudio",
+            "network"
+        ]
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "",
+        "format-icons": { "default": ["", "", ""] },
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+
+    "network": {
+        "format-wifi": "   {essid}",
+        "format-ethernet": "   {ifname}",
+        "format-disconnected": "   Offline",
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<big>{:%Y %B %d}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "EN",
+        "format-ru": "RU",
+        "tooltip": false
+    },
+
+    "custom/search": { 
+        "format": "\uf303", 
+        "on-click": "rofi -show drun",
+        "tooltip": false 
+    },
+
+    "custom/power": { 
+        "format": "", 
+        "on-click": "poweroff",
+        "tooltip": false
+    }
+}
+
