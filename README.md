@@ -17,13 +17,13 @@ This repository contains my personal **Hyprland** configuration files for a slee
 ## 🖼️ Screenshots
 
 **Waybar**  
-![Hyprland Waybar](images/screenshot1.png)
+![Hyprland Waybar](images/sh1.png)
 
 **Rofi App Launcher**  
-![Hyprland Rofi](images/screenshot3.png)
+![Hyprland Rofi](images/sh3.png)
 
 **Fastfetch + Alacritty**  
-![Hyprland Fastfetch+Alacritty](images/screenshot2.png)
+![Hyprland Fastfetch+Alacritty](images/sh2.png)
 
 ---
 
