@@ -20,10 +20,10 @@ This repository contains my personal **Hyprland** configuration files for a slee
 ![Hyprland Waybar](images/screenshot1.png)
 
 **Rofi App Launcher**  
-![Hyprland Rofi](images/statusbar.png)
+![Hyprland Rofi](images/screenshot3.png)
 
 **Fastfetch + Alacritty**  
-![Hyprland Fastfetch+Alacritty](images/statusbar.png)
+![Hyprland Fastfetch+Alacritty](images/screenshot2.png)
 
 ---
 
