@@ -5,17 +5,22 @@
 
     "modules-left": ["custom/search", "mpris"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["hyprland/language", "group/hardware", "clock", "custom/power"],
+    "modules-right": ["hyprland/language", "group/hardware", "cpu", "clock", "custom/power"],
 
     "hyprland/workspaces": {
-        "format": "{name}",
+        "format": "{icon}",
+        "format-icons": {
+            "default": "",   // пустой круг
+            "active": "",    // заполненный круг
+            "urgent": ""
+        },
         "on-click": "activate",
         "tooltip": false
     },
 
     "mpris": {
-        "format": "{player_icon} <span font='10'> </span>{title} - {artist}",
-        "format-paused": "{status_icon} <i>{title} - {artist}</i>",
+        "format": "{player_icon}<span font='10'> </span>{title} - {artist}",
+        "format-paused": "{status_icon}<i>{title} - {artist}</i>",
         "player-icons": {
             "default": " "
         },
@@ -42,6 +47,12 @@
         "tooltip": false
     },
 
+    "cpu": {
+        "format": "  {usage}%",
+        "interval": 1,
+        "tooltip": false
+    },
+
     "network": {
         "format-wifi": "   {essid}",
         "format-ethernet": "   {ifname}",
@@ -51,7 +62,6 @@
 
     "clock": {
         "format": "{:%H:%M}",
-        "tooltip-format": "<big>{:%Y %B %d}</big>\n<tt><small>{calendar}</small></tt>",
     },
 
     "hyprland/language": {
@@ -73,4 +83,3 @@
         "tooltip": false
     }
 }
-
