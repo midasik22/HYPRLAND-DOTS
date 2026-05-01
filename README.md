@@ -27,4 +27,4 @@ This repository contains my personal **Hyprland** configuration files for a slee
 
 ---
 
-## 📂 Structure
+
