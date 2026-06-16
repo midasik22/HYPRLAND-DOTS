@@ -9,7 +9,7 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import	 "colors/ef-cherie.rasi"
+@import "themes/ef-cherie-dark.rasi"
 
 * {
     border-colour:               var(selected);
